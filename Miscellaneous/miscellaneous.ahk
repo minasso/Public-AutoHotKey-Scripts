@@ -1,5 +1,5 @@
-﻿; Allow normal CapsLock functionality to be toggled by Alt+CapsLock:
-!CapsLock::
+﻿; Allow normal CapsLock functionality to be toggled by shift+CapsLock:
++CapsLock::
     GetKeyState, capsstate, CapsLock, T ;(T indicates a Toggle. capsstate is an arbitrary varible name)
     if capsstate = U
         SetCapsLockState, AlwaysOn
